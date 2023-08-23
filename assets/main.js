@@ -57,10 +57,10 @@ if (kmToRun > 0 && age > 0) {
 
     console.log("Prezzo biglietto dopo aver controllato l'età: " + fullPrice.toFixed(2));
 
-    fullPriceElement.innerHTML = `Il prezzo del tuo biglietto è: <strong>${fullPrice.toFixed(2)}€</strong>`;
+    ticketPriceElement.innerHTML = `Il prezzo del tuo biglietto è: <strong>${fullPrice.toFixed(2)}€</strong>`;
 
 } else {
-    fullPriceElement.innerHTML = 'I dati inseriti non risultano corretti';
+    ticketPriceElement.innerHTML = 'I dati inseriti non risultano corretti';
 }
 
 
